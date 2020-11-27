@@ -1,13 +1,13 @@
 # Nirav Kyada Site
 
-this is just intro site..
+
+## This is just intro site..
 
 and looking forward to add some more details for the readme.
+you can say gitHub pushing testing...
 
-you can say gitHub pushing..
-
-As of now, I know:
+** As of now, I know :**
 1. VBA
 1. JavaScript
-1. Chalk
+1. Chalk 
 1. Swift - iOS
