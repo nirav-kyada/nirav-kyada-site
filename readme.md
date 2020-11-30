@@ -19,5 +19,5 @@ you can say gitHub pushing testing...
 #### (Will try .. not sure its easy for you .. lol)
 
 ## Follow me over
-[![Instagram](/sources/image/instagram.png)](https://instagram.com/_darkslayer_)
+[![Instagram](/images/instagram.png)](https://instagram.com/_darkslayer_)
 
