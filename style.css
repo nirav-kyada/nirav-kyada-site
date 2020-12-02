@@ -253,7 +253,6 @@ grid-gap: 20px
   padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
-
 }
 .wrapper p{
   color: var(--color2);
@@ -262,7 +261,9 @@ grid-gap: 20px
   font-weight: 400;
   font-family: "ibm plex mono";
   text-align: justify;
-
+}
+.grid-item{
+  background-color:var(--color7);
 }
 /* icon bar settings------------- */
 .icon-bar{
