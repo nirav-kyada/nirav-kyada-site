@@ -11,7 +11,7 @@
   --color3 : #FFD369;
   --color4 : #bc90de;
   --color5 : #EEEEEE;
-  --color6 : lightblue;
+  --color6 : rgb(107, 177, 201);
   --color7 : #111111;
   --color8 : orangered;
   
@@ -303,7 +303,7 @@ grid-gap: 20px
 /* Styling for uses.html -------------*/
 
 .section-uses .uses-h1{
-  color: var(--color5);
+  color: var(--color6);
   font-family: "ibm plex mono";
   margin: auto;
 }
