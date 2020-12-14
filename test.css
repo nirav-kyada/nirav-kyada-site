@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+:root {
+	/* --color1 : #222831; */
+	--color1: black;
+	--color2: hsl(219, 9%, 48%);
+	--color3: #ffd369;
+	--color4: #bc90de;
+	--color5: #eeeeee;
+	--color6: rgb(107, 177, 201);
+	--color7: #111111;
+	--color8: orangered;
+}
+
+/* Nevigation */
+.nav {
+	font-family: 'IBM Plex Mono';
+	display: inline-block;
+}
+
+.center {
+	text-align: center;
+}
+
+/* ---------------- */
+body {
+	background-color: var(--color1);
+	color: var(--color4);
+	margin: auto;
+
+	max-width: 100%;
+	font-family: 'ibm plex mono';
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*::selection {
+	background: orangered;
+	color: #eeeeee;
+}
+
+/* Text related ------------------------ */
+
+h1 {
+	color: var(--color6);
+	/* color: lightblue; */
+	margin-left: 20px;
+	font-family: 'Ibm plex mono';
+	text-align: justify;
+}
+
+h2 {
+	color: whitesmoke;
+	text-align: center;
+	/* font-family: 'anton'; */
+}
+
+p {
+	color: #eeeeee;
+	font-family: 'IBM Plex Mono';
+	margin: auto;
+	padding: 1rem;
+	max-width: 992px;
+	text-align: justify;
+}
+
+#h2-test {
+	font-family: 'IBM Plex Mono';
+}
+hr {
+	color: var(--color2);
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	margin-top: -0.3rem;
+	margin-bottom: -0.5rem;
+}
+/* DIV codes ----------------------------*/
+.container {
+	margin: auto;
+	max-width: 992px;
+	width: 100%;
+	padding: 10px;
+}
+
+.disable-select {
+	user-select: none; /* supported by Chrome and Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+/* Links related ---------------------------*/
+a {
+	text-decoration: none;
+	background-color: var(--color1);
+	color: var(--color5);
+	/* border-radius: 0.5rem; */
+	/* padding: 0rem 0rem; */
+	border: solid 0.5px;
+	border-color: var(--color5);
+}
+.link-active {
+	background-color: var(--color1);
+	color: var(--color3);
+	font-weight: 600;
+}
+a:hover {
+	background-color: var(--color5);
+	color: var(--color7);
+	font-weight: 600;
+}
+
+.link-box {
+	border: none;
+	text-decoration: none;
+	background-color: var(--color7);
+}
+
+.link-box:hover {
+	background-color: var(--color7);
+	color: var(--color5);
+	border: dashed 1px;
+	border-color: var(--color2);
+	font-weight: 400;
+}
+
+.link-logo {
+	padding: 0.5rem 0.5rem;
+	color: #eeeeee;
+	font-size: 2rem;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.link-secondary {
+	padding: 0.3rem 0.3rem;
+	font-size: 1.1rem;
+	font-weight: 400;
+	border-color: var(--color1);
+	margin: auto;
+	width: 100%;
+	height: auto;
+	/* padding: 2rem 1rem 2rem 1rem; */
+	text-align: right;
+	/* display: inline-block; */
+}
+.link-primary {
+	padding: 0.3rem 0.3rem;
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: var(--color3);
+	background-color: var(--color1);
+	border: none;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	/* padding: 2rem 1rem 2rem 1rem; */
+	text-align: right;
+}
+
+.link-credits {
+	text-decoration: none;
+	background-color: var(--color1);
+	color: var(--color3);
+	/* border-radius: 0.5rem; */
+	padding: 0rem 0rem;
+	border: none;
+}
+
+/* other----------------- */
+
+/* List items related --------------- */
+
+.non-bullet {
+	list-style: none;
+	margin: auto;
+}
+
+.list-logo {
+	text-align: left;
+	float: left;
+	padding: 20px;
+	margin: auto;
+}
+.list-inline {
+	display: inline-block;
+	padding-top: 40px;
+	padding-left: 50px;
+	margin: auto;
+}
+
+/* Image related ------------ for keeping aspect ratio width & height used*/
+.hero-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: auto;
+}
+
+.end {
+	padding-bottom: 5rem;
+}
+
+/* testingsssss------------- */
+.cards {
+	grid-gap: 20px;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: REPEAT(2, 1fr);
+	grid-auto-rows: 200px;
+	row-gap: 1em;
+	column-gap: 10px;
+	text-align: center;
+	padding: 50px;
+	font-family: 'Ibm plex mono';
+	margin: auto;
+}
+
+.wrapper h2 {
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.7rem;
+	margin-top: auto;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.wrapper p {
+	color: var(--color2);
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	font-family: 'ibm plex mono';
+	text-align: justify;
+}
+.grid-item {
+	background-color: var(--color7);
+}
+/* icon bar settings------------- */
+.icon-bar {
+	margin: auto;
+	max-width: 992px;
+	text-align: center;
+}
+.icon-bar a {
+	text-align: center;
+	padding: 2rem 3rem;
+	transition: all 0.3s ease;
+	color: var(--color2);
+	font-size: 3rem;
+	display: inline-block;
+	margin: auto;
+	max-width: 32;
+	border: none;
+}
+
+.icon-bar a:hover {
+	background-color: var(--color1);
+	color: var(--color4);
+}
+
+.footer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	background-color: var(--color7);
+	text-align: center;
+	font-family: 'ibm plex mono';
+}
+
+/* Styling for uses.html -------------*/
+
+.section-uses .uses-h1 {
+	color: var(--color6);
+	font-family: 'ibm plex mono';
+	margin: auto;
+}
+
+.section-uses .uses-h2 {
+	color: var(--color5);
+	text-align: left;
+	font-family: 'ibm plex mono';
+}
+.section-uses .uses-h3 {
+	color: var(--color5);
+	text-align: left;
+	font-family: 'ibm plex mono';
+}
+#uses-body {
+	color: var(--color2);
+	font-family: 'ibm plex mono';
+}
+
+.blog-section {
+	width: 992px;
+	margin: auto;
+	font-family: 'ibm plex mono';
+}
+
+/*idea for blog in iframe WIP*/
+/* .container-iframe {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 60%; /* 16:9 Aspect Ratio --
+}
+
+ .responsive-iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+} */
