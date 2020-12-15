@@ -291,6 +291,7 @@ a:hover {
 	color: var(--color6);
 	font-family: 'ibm plex mono';
 	margin: auto;
+	padding-top: 1rem;
 }
 
 .section-uses .uses-h2 {
