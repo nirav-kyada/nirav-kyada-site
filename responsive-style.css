@@ -309,9 +309,12 @@ a:hover {
 }
 
 .blog-section {
-	width: 992px;
 	margin: auto;
 	font-family: 'ibm plex mono';
+}
+.blog-section > p {
+	width: 100%;
+	text-align: justify;
 }
 
 .nav2 {
