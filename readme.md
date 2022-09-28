@@ -19,5 +19,5 @@ you can say gitHub pushing testing...
 #### (Will try .. not sure its easy for you .. lol)
 
 ## Follow me over
-[![Instagram](/images/instagram.png)](https://instagram.com/_darkslayer_)
-
+[![Instagram](/icons/instagram-32px.png)](https://instagram.com/_darkslayer_)
+[![Twitter](/icons/twitter-48px.png)](https://twitter.com/nirav_kyada)
